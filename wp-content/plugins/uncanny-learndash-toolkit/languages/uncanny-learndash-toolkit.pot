@@ -1,0 +1,1867 @@
+# Copyright (C) 2022 Uncanny Owl
+# This file is distributed under the GPLv3.
+msgid ""
+msgstr ""
+"Project-Id-Version: Uncanny Toolkit for LearnDash 3.6.2\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/uncanny-learndash-toolkit\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2022-02-09T18:39:31+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.5.0\n"
+"X-Domain: uncanny-learndash-toolkit\n"
+
+#. Plugin Name of the plugin
+#: src/admin-menu.php:40
+#: src/blocks/blocks.php:149
+msgid "Uncanny Toolkit for LearnDash"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://www.uncannyowl.com/uncanny-learndash-toolkit/"
+msgstr ""
+
+#. Description of the plugin
+msgid "Extend LearnDash with a variety of complementary features to make building engaging learner experiences even easier."
+msgstr ""
+
+#. Author of the plugin
+msgid "Uncanny Owl"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://www.uncannyowl.com"
+msgstr ""
+
+#: src/admin-menu.php:41
+#: src/classes/login-logout-menu.php:240
+msgid "Uncanny Toolkit"
+msgstr ""
+
+#: src/admin-menu.php:53
+#: src/templates/admin-tabs.php:15
+#: uncanny-learndash-toolkit.php:80
+msgid "Modules"
+msgstr ""
+
+#: src/admin-menu.php:145
+#: src/templates/admin-support.php:12
+msgid "by"
+msgstr ""
+
+#: src/admin-menu.php:469
+msgid "Days Until Course Expiry"
+msgstr ""
+
+#: src/admin-menu.php:470
+msgid "Use this shortcode to display the number of days until the learner's access expires for the current course. This is a useful shortcode to include on course pages."
+msgstr ""
+
+#: src/admin-menu.php:476
+msgid "Email Course Certificates"
+msgstr ""
+
+#: src/admin-menu.php:477
+msgid "Sends a copy of certificate earned from course completion and saves certificates on the server."
+msgstr ""
+
+#: src/admin-menu.php:483
+msgid "Simple Course Timer"
+msgstr ""
+
+#: src/admin-menu.php:484
+msgid "Tracks time spent in all LearnDash courses and detects when a user is idle. Course completion time and total course time are both added to LearnDash reports. Enables blocking access to quizzes until minimum time spent in course."
+msgstr ""
+
+#: src/admin-menu.php:490
+msgid "Email Quiz Certificates"
+msgstr ""
+
+#: src/admin-menu.php:491
+msgid "Sends a copy of certificates earned from quiz completion and saves certificates on the server."
+msgstr ""
+
+#: src/admin-menu.php:497
+msgid "Autocomplete Lessons & Topics on Gravity Form Submission"
+msgstr ""
+
+#: src/admin-menu.php:498
+msgid "Automatically mark LearnDash lessons and topics as completed when the user submits Gravity Forms."
+msgstr ""
+
+#: src/admin-menu.php:504
+msgid "Improved Group Leader Interface"
+msgstr ""
+
+#: src/admin-menu.php:505
+msgid "Enhances the experience of LearnDash Group Leaders by providing direct access to reports and removing unnecessary distractions from the admin panel."
+msgstr ""
+
+#: src/admin-menu.php:511
+msgid "Group Logo/List"
+msgstr ""
+
+#: src/admin-menu.php:512
+msgid "Add group-specific logos to any page, including registration pages. A shortcode to list a user's LearnDash Groups is also available."
+msgstr ""
+
+#: src/admin-menu.php:518
+msgid "Import Users"
+msgstr ""
+
+#: src/admin-menu.php:519
+msgid "Create or update users and assign them to courses and LearnDash Groups from a CSV file."
+msgstr ""
+
+#: src/admin-menu.php:525
+msgid "Group Expiration"
+msgstr ""
+
+#: src/admin-menu.php:526
+msgid "Set expiration dates for LearnDash groups so that course enrolment for the group is removed on the specified day. Reminder emails can be sent to users advising them of group expiration."
+msgstr ""
+
+#: src/admin-menu.php:532
+msgid "Group Registration"
+msgstr ""
+
+#: src/admin-menu.php:533
+msgid "Allow users to add themselves directly to LearnDash Groups on registration by assigning each group a unique registration URL. Users can also change or add groups themselves by visiting group URLs."
+msgstr ""
+
+#: src/admin-menu.php:539
+msgid "Course Dashboard"
+msgstr ""
+
+#: src/admin-menu.php:540
+msgid "Use the [uo_dashboard] shortcode to display the list of enrolled courses for the current user. This is essentially a modified version of the [ld_profile] shortcode without profile data."
+msgstr ""
+
+#: src/admin-menu.php:546
+msgid "Duplicate Pages & Posts"
+msgstr ""
+
+#: src/admin-menu.php:547
+msgid "Easily clone pages, posts, LearnDash courses, lessons, topics, quizzes and more. This plugin handles quiz duplication properly."
+msgstr ""
+
+#: src/admin-menu.php:553
+msgid "Reset Progress Button"
+msgstr ""
+
+#: src/admin-menu.php:554
+msgid "Inserts a button that allows learners to reset the course."
+msgstr ""
+
+#: src/admin-menu.php:560
+msgid "Lesson/Topic/Quiz Table Colors"
+msgstr ""
+
+#: src/admin-menu.php:561
+msgid "Change the background and header text color of LearnDash tables. This module modifies the course, lesson, topic, quiz, and Pro Dashboard tables."
+msgstr ""
+
+#: src/admin-menu.php:567
+msgid "Learner Transcript"
+msgstr ""
+
+#: src/admin-menu.php:568
+msgid "Add printable transcripts to the front end for your learners. This is a great way for learners to have a record of all course progress and overall standing."
+msgstr ""
+
+#: src/admin-menu.php:574
+msgid "Autocomplete Lessons & Topics"
+msgstr ""
+
+#: src/admin-menu.php:575
+msgid "Automatically mark all lessons and topics as completed on user visit and remove Mark Complete buttons. Global settings can be overridden for individual lessons and topics."
+msgstr ""
+
+#: src/admin-menu.php:581
+msgid "Autocomplete Lessons & Topics on Quiz Results Page"
+msgstr ""
+
+#: src/admin-menu.php:582
+msgid "Automatically mark LearnDash lessons and topics as completed when the user reaches the quiz results page with a passing mark."
+msgstr ""
+
+#: src/admin-menu.php:588
+msgid "Enhanced Lessons/Topics Grid"
+msgstr ""
+
+#: src/admin-menu.php:589
+msgid "Add a highly customizable grid of LearnDash lessons/topics to the front end, learner dashboard or anywhere you want. This is a great tool for sites with a large number of lessons/topics."
+msgstr ""
+
+#: src/admin-menu.php:595
+msgid "Sample Lesson Label"
+msgstr ""
+
+#: src/admin-menu.php:596
+msgid "Add visual label to sample lessons."
+msgstr ""
+
+#: src/admin-menu.php:602
+msgid "Enhanced Course Grid"
+msgstr ""
+
+#: src/admin-menu.php:603
+msgid "Add a highly customizable grid of LearnDash courses to the front end, learner dashboard or anywhere you want. This is a great tool for sites with a large number of courses."
+msgstr ""
+
+#: src/admin-menu.php:609
+msgid "Drip Lessons by Group"
+msgstr ""
+
+#: src/admin-menu.php:610
+msgid "Unlock access to LearnDash lessons by setting dates for LearnDash Groups rather than for all enrolled users."
+msgstr ""
+
+#: src/admin-menu.php:616
+msgid "Autocomplete Lessons & Topics When Quiz is Graded"
+msgstr ""
+
+#: src/admin-menu.php:617
+msgid "Automatically mark LearnDash lessons and topics as completed when the associated quiz is manually graded."
+msgstr ""
+
+#: src/admin-menu.php:623
+msgid "Certificate Preview"
+msgstr ""
+
+#: src/admin-menu.php:624
+msgid "Get a preview of your quiz or course certificate without leaving the editor."
+msgstr ""
+
+#: src/admin-menu.php:630
+msgid "Enhanced LearnDash CSV Reports"
+msgstr ""
+
+#: src/admin-menu.php:631
+msgid "This module will add additional columns to the LearnDash csv reports (course and quiz)."
+msgstr ""
+
+#: src/admin-menu.php:637
+msgid "Group Forums with bbPress"
+msgstr ""
+
+#: src/admin-menu.php:638
+msgid "Create group-specific discussion forums with bbPress. Only group members will have access to group-specific forums. Includes a handy widget."
+msgstr ""
+
+#: src/admin-menu.php:644
+msgid "Group Login Redirect"
+msgstr ""
+
+#: src/admin-menu.php:645
+msgid "Adds a group-specific login redirect setting to LearnDash groups. Automatically redirect group members to a specific page on login."
+msgstr ""
+
+#: src/admin-menu.php:651
+msgid "Lazy Loading Course Navigation"
+msgstr ""
+
+#: src/admin-menu.php:652
+msgid "Shortcode that loads a course navigation tree via AJAX. Useful on sites with many lessons and topics where the native LearnDash Course Navigation widget is extending page load time."
+msgstr ""
+
+#: src/admin-menu.php:658
+msgid "Restrict Page Access"
+msgstr ""
+
+#: src/admin-menu.php:659
+msgid "Restrict access to any page by logged in/out status, course enrollment, group membership, or role. Display a message or automatically redirect users that are denied access."
+msgstr ""
+
+#: src/admin-menu.php:667
+msgid "This module requires Uncanny Toolkit Pro. {{Buy it here}}"
+msgstr ""
+
+#: src/boot.php:25
+msgid "Please contact your hosting company to update to php version 5.3+ and enable spl extensions."
+msgstr ""
+
+#: src/boot.php:85
+#: src/boot.php:95
+msgid "Uncanny Toolkit for LearnDash Support"
+msgstr ""
+
+#: src/boot.php:86
+#: src/config.php:537
+#: src/templates/admin-tabs.php:19
+msgid "Help"
+msgstr ""
+
+#: src/boot.php:96
+#: src/templates/admin-tabs.php:23
+msgid "LearnDash Plugins"
+msgstr ""
+
+#: src/boot.php:168
+msgid "Dismiss"
+msgstr ""
+
+#: src/boot.php:171
+#: src/config.php:675
+msgid "Something went wrong. Please, try again"
+msgstr ""
+
+#: src/classes/breadcrumbs.php:62
+msgid "Breadcrumbs"
+msgstr ""
+
+#: src/classes/breadcrumbs.php:67
+msgid "Easily add breadcrumb links that work with courses, lessons, topics and quizzes using a shortcode or template change. WooCommerce is also supported."
+msgstr ""
+
+#: src/classes/breadcrumbs.php:113
+msgid "Dashboard Page Title"
+msgstr ""
+
+#: src/classes/breadcrumbs.php:118
+msgid "Dashboard Page"
+msgstr ""
+
+#: src/classes/breadcrumbs.php:124
+msgid "Breadcrumbs Separator"
+msgstr ""
+
+#: src/classes/breadcrumbs.php:129
+msgid "Include Current Page"
+msgstr ""
+
+#: src/classes/breadcrumbs.php:164
+msgid "Home"
+msgstr ""
+
+#: src/classes/breadcrumbs.php:345
+msgid "F Y"
+msgstr ""
+
+#: src/classes/breadcrumbs.php:345
+#: src/classes/breadcrumbs.php:348
+msgid " Archives"
+msgstr ""
+
+#: src/classes/breadcrumbs.php:348
+msgid "Y"
+msgstr ""
+
+#: src/classes/breadcrumbs.php:356
+msgid "Shop"
+msgstr ""
+
+#: src/classes/breadcrumbs.php:361
+msgid "Search"
+msgstr ""
+
+#: src/classes/breadcrumbs.php:373
+msgid "Breadcrumb"
+msgstr ""
+
+#: src/classes/disable-emails.php:42
+msgid "Disable Emails"
+msgstr ""
+
+#: src/classes/disable-emails.php:44
+msgid "While this module is active, WordPress and any plugins using native WordPress email functions will be prevented from sending email."
+msgstr ""
+
+#: src/classes/frontend-login-plus.php:225
+msgid "Front End Login"
+msgstr ""
+
+#: src/classes/frontend-login-plus.php:227
+msgid "Adds a custom login form and can optionally force users to be verified by an admin before they can sign in."
+msgstr ""
+
+#: src/classes/frontend-login-plus.php:309
+msgid "Someone requested a password reset for the user %User Login%."
+msgstr ""
+
+#: src/classes/frontend-login-plus.php:312
+msgid "If you want to reset your password, click the link below. %Reset Link%"
+msgstr ""
+
+#: src/classes/frontend-login-plus.php:314
+msgid "If you want to reset your password, click the link below. <a href='%Reset Link%'>Reset Password' )</a>"
+msgstr ""
+
+#: src/classes/frontend-login-plus.php:317
+msgid "If you did not request a password reset, you may safely ignore this email."
+msgstr ""
+
+#: src/classes/frontend-login-plus.php:319
+#: src/classes/frontend-login-plus.php:948
+msgid "Your account has been approved! "
+msgstr ""
+
+#: src/classes/frontend-login-plus.php:320
+msgid "Please visit %Home Url% to login. "
+msgstr ""
+
+#: src/classes/frontend-login-plus.php:326
+msgid "General"
+msgstr ""
+
+#: src/classes/frontend-login-plus.php:336
+msgid "Enable AJAX"
+msgstr ""
+
+#: src/classes/frontend-login-plus.php:341
+msgid "Select Template"
+msgstr ""
+
+#: src/classes/frontend-login-plus.php:346
+msgid "Default"
+msgstr ""
+
+#: src/classes/frontend-login-plus.php:350
+msgid "Boxed with shadow"
+msgstr ""
+
+#: src/classes/frontend-login-plus.php:356
+#: src/classes/sample.php:286
+msgid "Login Page"
+msgstr ""
+
+#: src/classes/frontend-login-plus.php:362
+msgid "Manual User Verification"
+msgstr ""
+
+#: src/classes/frontend-login-plus.php:367
+msgid "User Verified Email"
+msgstr ""
+
+#: src/classes/frontend-login-plus.php:371
+msgid "Disable User Verification Email"
+msgstr ""
+
+#: src/classes/frontend-login-plus.php:376
+msgid "%Site Name% - Account Verified"
+msgstr ""
+
+#: src/classes/frontend-login-plus.php:377
+#: src/classes/frontend-login-plus.php:651
+#: src/templates/admin-help.php:120
+msgid "Subject"
+msgstr ""
+
+#: src/classes/frontend-login-plus.php:383
+msgid "Available variables for subject"
+msgstr ""
+
+#: src/classes/frontend-login-plus.php:385
+msgid "Prints Site's Name"
+msgstr ""
+
+#: src/classes/frontend-login-plus.php:391
+#: src/classes/frontend-login-plus.php:657
+msgid "Body"
+msgstr ""
+
+#: src/classes/frontend-login-plus.php:397
+#: src/classes/frontend-login-plus.php:663
+msgid "Available variables for email body"
+msgstr ""
+
+#: src/classes/frontend-login-plus.php:400
+msgid "Prints User's Display Name"
+msgstr ""
+
+#: src/classes/frontend-login-plus.php:402
+msgid "Prints User's First Name"
+msgstr ""
+
+#: src/classes/frontend-login-plus.php:404
+msgid "Prints User's Last Name"
+msgstr ""
+
+#: src/classes/frontend-login-plus.php:406
+msgid "Prints Site's Home URL"
+msgstr ""
+
+#: src/classes/frontend-login-plus.php:417
+msgid "Login Form"
+msgstr ""
+
+#: src/classes/frontend-login-plus.php:421
+#: src/classes/frontend-login-plus.php:597
+#: src/classes/frontend-login-plus.php:682
+#: src/classes/widget-cert.php:372
+msgid "Title"
+msgstr ""
+
+#: src/classes/frontend-login-plus.php:422
+msgid "Login"
+msgstr ""
+
+#: src/classes/frontend-login-plus.php:427
+msgid "Hide the Title"
+msgstr ""
+
+#: src/classes/frontend-login-plus.php:433
+#: src/classes/frontend-login-plus.php:603
+#: src/classes/frontend-login-plus.php:688
+msgid "Description"
+msgstr ""
+
+#: src/classes/frontend-login-plus.php:434
+msgid "Log in below to access your courses."
+msgstr ""
+
+#: src/classes/frontend-login-plus.php:440
+msgid "Hide the Description"
+msgstr ""
+
+#: src/classes/frontend-login-plus.php:446
+msgid "Login Field Label"
+msgstr ""
+
+#: src/classes/frontend-login-plus.php:447
+#: src/classes/frontend-login-plus.php:610
+msgid "Username or Email Address"
+msgstr ""
+
+#: src/classes/frontend-login-plus.php:452
+#: src/classes/frontend-login-plus.php:694
+msgid "Password Field Label"
+msgstr ""
+
+#: src/classes/frontend-login-plus.php:453
+msgid "Password"
+msgstr ""
+
+#: src/classes/frontend-login-plus.php:458
+msgid "Disable Remember Me Checkbox"
+msgstr ""
+
+#: src/classes/frontend-login-plus.php:463
+msgid "Remember Me Checkbox Label"
+msgstr ""
+
+#: src/classes/frontend-login-plus.php:464
+msgid "Remember Me"
+msgstr ""
+
+#: src/classes/frontend-login-plus.php:469
+msgid "Return to login link"
+msgstr ""
+
+#: src/classes/frontend-login-plus.php:470
+msgid "Return to login"
+msgstr ""
+
+#: src/classes/frontend-login-plus.php:475
+msgid "Forgot Password Link Text"
+msgstr ""
+
+#: src/classes/frontend-login-plus.php:476
+msgid "Forgot Password?"
+msgstr ""
+
+#: src/classes/frontend-login-plus.php:481
+#: src/classes/frontend-login-plus.php:615
+#: src/classes/frontend-login-plus.php:713
+msgid "Button Label"
+msgstr ""
+
+#: src/classes/frontend-login-plus.php:482
+#: src/classes/frontend-login-plus.php:550
+#: src/classes/login-logout-menu.php:150
+#: src/classes/login-logout-menu.php:336
+#: src/classes/login-logout-menu.php:353
+msgid "Log In"
+msgstr ""
+
+#: src/classes/frontend-login-plus.php:487
+msgid "Register Link Text"
+msgstr ""
+
+#: src/classes/frontend-login-plus.php:488
+#: src/classes/login-logout-menu.php:159
+#: src/classes/login-logout-menu.php:377
+msgid "Register"
+msgstr ""
+
+#: src/classes/frontend-login-plus.php:493
+msgid "Register Link"
+msgstr ""
+
+#: src/classes/frontend-login-plus.php:498
+msgid "Show Register Link"
+msgstr ""
+
+#: src/classes/frontend-login-plus.php:503
+#: src/classes/frontend-login-plus.php:628
+msgid "Invalid Credentials Message"
+msgstr ""
+
+#: src/classes/frontend-login-plus.php:504
+#: src/classes/frontend-login-plus.php:2525
+#: src/classes/frontend-login-plus.php:2642
+#: src/templates/frontend-login/layout_1-login.php:13
+msgid "Invalid username and/or password."
+msgstr ""
+
+#: src/classes/frontend-login-plus.php:516
+msgid "Account Not Verified Message"
+msgstr ""
+
+#: src/classes/frontend-login-plus.php:517
+msgid "Your account is not yet verified."
+msgstr ""
+
+#: src/classes/frontend-login-plus.php:522
+msgid "Logged out message"
+msgstr ""
+
+#: src/classes/frontend-login-plus.php:523
+#: src/templates/frontend-login/layout_1-login.php:20
+msgid "You are logged out."
+msgstr ""
+
+#: src/classes/frontend-login-plus.php:528
+msgid "Log Out Link Text"
+msgstr ""
+
+#: src/classes/frontend-login-plus.php:529
+#: src/classes/login-logout-menu.php:153
+msgid "Log Out"
+msgstr ""
+
+#: src/classes/frontend-login-plus.php:534
+msgid "Hide All For Logged In Users"
+msgstr ""
+
+#: src/classes/frontend-login-plus.php:539
+msgid "Message For Logged In Users"
+msgstr ""
+
+#: src/classes/frontend-login-plus.php:540
+msgid "You are logged in."
+msgstr ""
+
+#: src/classes/frontend-login-plus.php:545
+msgid "Modal Login"
+msgstr ""
+
+#: src/classes/frontend-login-plus.php:549
+msgid "Modal Login Button Label [uo_login_modal]"
+msgstr ""
+
+#: src/classes/frontend-login-plus.php:555
+msgid "Don't dim the background when the modal is open"
+msgstr ""
+
+#: src/classes/frontend-login-plus.php:560
+msgid "Ignore Login redirect for Modal Login"
+msgstr ""
+
+#: src/classes/frontend-login-plus.php:565
+msgid "Google reCAPTCHA Settings"
+msgstr ""
+
+#: src/classes/frontend-login-plus.php:569
+msgid "Site Key"
+msgstr ""
+
+#: src/classes/frontend-login-plus.php:575
+msgid "Secret Key"
+msgstr ""
+
+#: src/classes/frontend-login-plus.php:581
+msgid "reCAPTCHA Not Checked Message"
+msgstr ""
+
+#: src/classes/frontend-login-plus.php:582
+msgid "Please verify that you are not a robot."
+msgstr ""
+
+#: src/classes/frontend-login-plus.php:587
+msgid "reCAPTCHA Error Message"
+msgstr ""
+
+#: src/classes/frontend-login-plus.php:588
+msgid "There was an error validating the form. Please contact the site administrator."
+msgstr ""
+
+#: src/classes/frontend-login-plus.php:593
+msgid "Forgot Password Form"
+msgstr ""
+
+#: src/classes/frontend-login-plus.php:598
+msgid "Forgot Password"
+msgstr ""
+
+#: src/classes/frontend-login-plus.php:604
+msgid "Enter your email address or username and we’ll send you instructions to reset your password."
+msgstr ""
+
+#: src/classes/frontend-login-plus.php:609
+msgid "Field Label"
+msgstr ""
+
+#: src/classes/frontend-login-plus.php:616
+msgid "Recover Account"
+msgstr ""
+
+#: src/classes/frontend-login-plus.php:629
+msgid "That is not a registered username or email address."
+msgstr ""
+
+#: src/classes/frontend-login-plus.php:634
+msgid "Email Failed Message"
+msgstr ""
+
+#: src/classes/frontend-login-plus.php:635
+msgid "Password reset email failed to send."
+msgstr ""
+
+#: src/classes/frontend-login-plus.php:640
+msgid "Email Success Message"
+msgstr ""
+
+#: src/classes/frontend-login-plus.php:641
+msgid "Check your email for a password reset link."
+msgstr ""
+
+#: src/classes/frontend-login-plus.php:646
+msgid "Forgot Password Email"
+msgstr ""
+
+#: src/classes/frontend-login-plus.php:650
+msgid "Password Reset"
+msgstr ""
+
+#: src/classes/frontend-login-plus.php:665
+msgid "Prints User's Login"
+msgstr ""
+
+#: src/classes/frontend-login-plus.php:667
+msgid "Prints Password Reset Link"
+msgstr ""
+
+#: src/classes/frontend-login-plus.php:672
+msgid "Reset Password Form"
+msgstr ""
+
+#: src/classes/frontend-login-plus.php:676
+msgid "Require strong password"
+msgstr ""
+
+#: src/classes/frontend-login-plus.php:678
+msgid "(Minimum 8 characters with 1 uppercase, 1 lowercase, 1 number)"
+msgstr ""
+
+#: src/classes/frontend-login-plus.php:683
+#: src/classes/frontend-login-plus.php:714
+msgid "Reset Password"
+msgstr ""
+
+#: src/classes/frontend-login-plus.php:689
+msgid "Enter a new password below."
+msgstr ""
+
+#: src/classes/frontend-login-plus.php:695
+msgid "New Password"
+msgstr ""
+
+#: src/classes/frontend-login-plus.php:700
+msgid "Confirm Password Field Label"
+msgstr ""
+
+#: src/classes/frontend-login-plus.php:701
+msgid "Confirm New Password"
+msgstr ""
+
+#: src/classes/frontend-login-plus.php:719
+msgid "Passwords Do Not Match Message"
+msgstr ""
+
+#: src/classes/frontend-login-plus.php:720
+msgid "The passwords you entered do not match."
+msgstr ""
+
+#: src/classes/frontend-login-plus.php:725
+msgid "Passwords strength is not strong"
+msgstr ""
+
+#: src/classes/frontend-login-plus.php:726
+msgid "The passwords you entered is not strong."
+msgstr ""
+
+#: src/classes/frontend-login-plus.php:738
+msgid "Invalid Reset Link Message"
+msgstr ""
+
+#: src/classes/frontend-login-plus.php:739
+msgid "Invalid password reset link."
+msgstr ""
+
+#: src/classes/frontend-login-plus.php:744
+msgid "Password Reset Successful Message"
+msgstr ""
+
+#: src/classes/frontend-login-plus.php:745
+msgid "Your password was successfully reset. Please log in."
+msgstr ""
+
+#: src/classes/frontend-login-plus.php:806
+#: src/classes/frontend-login-plus.php:817
+msgid "Auto Verified"
+msgstr ""
+
+#: src/classes/frontend-login-plus.php:809
+msgid "Verified"
+msgstr ""
+
+#: src/classes/frontend-login-plus.php:813
+msgid "Not Verified"
+msgstr ""
+
+#: src/classes/frontend-login-plus.php:927
+#: src/classes/frontend-login-plus.php:996
+msgid "%s - Account Verified"
+msgstr ""
+
+#: src/classes/frontend-login-plus.php:949
+msgid "Please visit %s to login. "
+msgstr ""
+
+#: src/classes/frontend-login-plus.php:1006
+msgid "%s account has been approved! "
+msgstr ""
+
+#: src/classes/frontend-login-plus.php:1007
+msgid " Visit %s to view / edit user. "
+msgstr ""
+
+#: src/classes/frontend-login-plus.php:1049
+msgid "We haven't verified this account."
+msgstr ""
+
+#: src/classes/frontend-login-plus.php:2217
+msgid "Note: This page has been set as the login page for this site. The form below has been added for your convenience. To hide this message, add the shortcode [uo_login_ui] or the Front End Login Gutenberg block to this page."
+msgstr ""
+
+#: src/classes/frontend-login-plus.php:2374
+msgid "<strong>ERROR</strong>: Password fields cannot be empty."
+msgstr ""
+
+#: src/classes/frontend-login-plus.php:2377
+msgid "<strong>ERROR</strong>: Passwords do not match."
+msgstr ""
+
+#: src/classes/frontend-login-plus.php:2384
+msgid "<strong>ERROR</strong>: Please enter a password of minimum 8 characters including at least 1 uppercase letter, 1 lowercase letter and 1 number."
+msgstr ""
+
+#: src/classes/frontend-login-plus.php:2627
+#: src/templates/frontend-login/layout_1-login.php:23
+msgid "This account is not verified."
+msgstr ""
+
+#: src/classes/frontend-login-plus.php:2705
+msgid "Invalid username/email."
+msgstr ""
+
+#: src/classes/frontend-login-plus.php:2933
+#: src/classes/frontend-login-plus.php:2989
+msgid "Password fields cannot be empty."
+msgstr ""
+
+#: src/classes/hide-admin-bar.php:37
+msgid "Hide Admin Bar"
+msgstr ""
+
+#: src/classes/hide-admin-bar.php:39
+msgid "Hides the Admin Bar at the top of WordPress pages based on the user role."
+msgstr ""
+
+#: src/classes/learn-dash-resume.php:71
+msgid "Resume Button"
+msgstr ""
+
+#: src/classes/learn-dash-resume.php:73
+msgid "Inserts a button that allows learners to return to the course, lesson or topic they last visited."
+msgstr ""
+
+#: src/classes/learn-dash-resume.php:108
+msgid "Resume Button Text"
+msgstr ""
+
+#: src/classes/learn-dash-resume.php:113
+msgid "Show Name of Last Course / Lesson / Topic"
+msgstr ""
+
+#: src/classes/learn-dash-resume.php:224
+#: src/classes/learn-dash-resume.php:373
+msgid "RESUME"
+msgstr ""
+
+#: src/classes/learn-dash-resume.php:233
+#: src/classes/learn-dash-resume.php:382
+msgid "Resume"
+msgstr ""
+
+#: src/classes/learn-dash-resume.php:254
+#: src/classes/learn-dash-resume.php:407
+#: src/classes/learn-dash-resume.php:421
+msgctxt "LMS shortcode Resume link title \"Resume post_type_name: Post_title "
+msgid "Resume %s: %s"
+msgstr ""
+
+#: src/classes/learndash-group-user-profile.php:44
+msgid "Groups in User Profiles"
+msgstr ""
+
+#: src/classes/learndash-group-user-profile.php:46
+msgid "Displays a user's LearnDash Group memberships in the user profile."
+msgstr ""
+
+#: src/classes/learndash-group-user-profile.php:88
+msgid "LearnDash Groups"
+msgstr ""
+
+#: src/classes/login-logout-menu.php:73
+msgid "Log In/Log Out Links"
+msgstr ""
+
+#: src/classes/login-logout-menu.php:78
+msgid "Add Log In and Log Out links to menus, or to any page or widget with a shortcode."
+msgstr ""
+
+#: src/classes/login-logout-menu.php:129
+msgid "Uncanny Menu Links"
+msgstr ""
+
+#: src/classes/login-logout-menu.php:156
+msgid "Log In / Log Out"
+msgstr ""
+
+#: src/classes/login-logout-menu.php:162
+msgid "Front end login modal"
+msgstr ""
+
+#: src/classes/login-logout-menu.php:199
+msgid "Add to Menu"
+msgstr ""
+
+#: src/classes/login-logout-menu.php:222
+msgid " - Log In"
+msgstr ""
+
+#: src/classes/login-logout-menu.php:225
+msgid " - Log Out"
+msgstr ""
+
+#: src/classes/login-logout-menu.php:228
+msgid " - Log In/Out"
+msgstr ""
+
+#: src/classes/login-logout-menu.php:231
+msgid " - Register"
+msgstr ""
+
+#: src/classes/login-logout-menu.php:234
+msgid " - Front end login modal"
+msgstr ""
+
+#: src/classes/login-logout-menu.php:353
+#: src/classes/login-logout-menu.php:367
+msgid "Logout"
+msgstr ""
+
+#: src/classes/login-redirect.php:63
+msgid "Log In/Log Out Redirects"
+msgstr ""
+
+#: src/classes/login-redirect.php:65
+msgid "Redirects all non-admin roles to a specific URL after logging into and/or out of the site."
+msgstr ""
+
+#: src/classes/login-redirect.php:109
+msgid "Login Redirect"
+msgstr ""
+
+#: src/classes/login-redirect.php:115
+msgid "Logout Redirect"
+msgstr ""
+
+#: src/classes/login-redirect.php:121
+msgid "Redirect Priority"
+msgstr ""
+
+#: src/classes/mark-lessons-complete.php:72
+msgid "Topics Autocomplete Lessons"
+msgstr ""
+
+#: src/classes/mark-lessons-complete.php:74
+msgid "Automatically marks lessons as completed when all topics and quizzes for that lesson are marked complete."
+msgstr ""
+
+#: src/classes/menu-item-visibility.php:60
+msgid "Menu Item Visibility"
+msgstr ""
+
+#: src/classes/menu-item-visibility.php:62
+msgid "Toggles the visibility of menu items based on whether or not users are signed in to the site."
+msgstr ""
+
+#: src/classes/menu-item-visibility.php:142
+msgid "Display Mode"
+msgstr ""
+
+#: src/classes/menu-item-visibility.php:153
+msgid "Logged In Users"
+msgstr ""
+
+#: src/classes/menu-item-visibility.php:163
+msgid "Logged Out Users"
+msgstr ""
+
+#: src/classes/menu-item-visibility.php:173
+msgid "Everyone"
+msgstr ""
+
+#: src/classes/quiz-completion-redirect.php:50
+msgid "Quiz completion advances to next step"
+msgstr ""
+
+#: src/classes/quiz-completion-redirect.php:52
+msgid "Automatically advance to the next step when user clicks \"Click here to continue\" on final quiz page of a lesson/topic."
+msgstr ""
+
+#: src/classes/redirect-not-enrolled.php:57
+msgid "Not Enrolled Redirect"
+msgstr ""
+
+#: src/classes/redirect-not-enrolled.php:59
+msgid "Redirects all non-admin roles to a specific URL if they are not enrolled in the course."
+msgstr ""
+
+#: src/classes/redirect-not-enrolled.php:138
+#: src/classes/redirect-not-enrolled.php:176
+msgid "Not enrolled Redirect URL"
+msgstr ""
+
+#: src/classes/redirect-not-enrolled.php:140
+#: src/classes/redirect-not-enrolled.php:178
+msgid "Redirect the user to the URL if they are not enrolled in the course"
+msgstr ""
+
+#: src/classes/sample.php:111
+msgid "Sample Title"
+msgstr ""
+
+#: src/classes/sample.php:117
+msgid "Sample Description B"
+msgstr ""
+
+#: src/classes/sample.php:242
+msgid "<div>Some Extra Information for the user</div>"
+msgstr ""
+
+#: src/classes/sample.php:248
+msgid "Settings A"
+msgstr ""
+
+#: src/classes/sample.php:255
+msgid "Settings B"
+msgstr ""
+
+#: src/classes/sample.php:262
+msgid "Settings Gender"
+msgstr ""
+
+#: src/classes/sample.php:274
+msgid "Settings Car"
+msgstr ""
+
+#: src/classes/show-certificates-shortcode.php:44
+msgid "Show Certificates"
+msgstr ""
+
+#: src/classes/show-certificates-shortcode.php:46
+msgid "Displays a list of LearnDash certificates (both course and quiz) earned by the user, with the most recent at the top."
+msgstr ""
+
+#: src/classes/show-certificates-shortcode.php:78
+#: src/classes/widget-cert.php:59
+msgid "Display Certificate title instead of Course/Quiz title"
+msgstr ""
+
+#: src/classes/show-certificates-shortcode.php:138
+#: src/classes/widget-cert.php:327
+msgid "Complete courses to earn certificates"
+msgstr ""
+
+#: src/classes/show-hide-content.php:43
+msgid "Show Or Hide Content"
+msgstr ""
+
+#: src/classes/show-hide-content.php:45
+msgid "Conditionally shows content to either logged in or logged out users. Great for Open course types."
+msgstr ""
+
+#: src/classes/user-switching.php:127
+msgid "User Switching"
+msgstr ""
+
+#: src/classes/user-switching.php:133
+msgid "Easily and securely switch between users.  Great for testing your site and troubleshooting user issues."
+msgstr ""
+
+#: src/classes/widget-cert.php:26
+msgid "Certificate Widget"
+msgstr ""
+
+#: src/classes/widget-cert.php:28
+msgid "Custom Widget that displays all certificates the user has earned."
+msgstr ""
+
+#: src/classes/widget-cert.php:100
+msgid "Certificates - Uncanny Toolkit"
+msgstr ""
+
+#: src/classes/widget-cert.php:175
+#: src/classes/widget-cert.php:215
+msgid "Your certificate for :"
+msgstr ""
+
+#: src/classes/widget-cert.php:326
+msgid "Your certificates"
+msgstr ""
+
+#: src/classes/widget-cert.php:342
+msgid "No certificates message:"
+msgstr ""
+
+#: src/classes/widget-cert.php:349
+msgid "Certificate Order:"
+msgstr ""
+
+#: src/classes/widget-cert.php:355
+msgid "Ascending"
+msgstr ""
+
+#: src/classes/widget-cert.php:361
+msgid "Descending"
+msgstr ""
+
+#: src/classes/widget-cert.php:365
+msgid "Certificate Order By:"
+msgstr ""
+
+#: src/classes/widget-cert.php:379
+msgid "Date Earned"
+msgstr ""
+
+#: src/config.php:546
+msgid "Close"
+msgstr ""
+
+#: src/config.php:553
+msgid "Save module"
+msgstr ""
+
+#: src/config.php:673
+msgid "Settings saved successfully"
+msgstr ""
+
+#: src/config.php:678
+msgid "Class for addon is not set"
+msgstr ""
+
+#: src/config.php:681
+msgid "You must be an admin to save settings"
+msgstr ""
+
+#: src/config.php:705
+msgid "Class for addon is not set."
+msgstr ""
+
+#: src/config.php:708
+msgid "You must be an admin to save settings."
+msgstr ""
+
+#: src/includes/class-frontend-login-plus-2fa-legacy.php:291
+#: src/includes/class-frontend-login-plus-2fa-legacy.php:301
+#: src/includes/class-frontend-login-plus-2fa-legacy.php:322
+#: src/includes/class-frontend-login-plus-2fa-legacy.php:341
+#: src/includes/class-frontend-login-plus-2fa.php:292
+#: src/includes/class-frontend-login-plus-2fa.php:302
+#: src/includes/class-frontend-login-plus-2fa.php:323
+#: src/includes/class-frontend-login-plus-2fa.php:342
+msgid "Failed to create a login nonce."
+msgstr ""
+
+#: src/includes/class-frontend-login-plus-2fa-legacy.php:348
+#: src/includes/class-frontend-login-plus-2fa.php:349
+msgid "A new code has been sent."
+msgstr ""
+
+#: src/includes/class-frontend-login-plus-2fa-legacy.php:456
+#: src/includes/class-frontend-login-plus-2fa.php:457
+msgid "ERROR: Failed to create a login nonce."
+msgstr ""
+
+#: src/includes/class-frontend-login-plus-2fa-legacy.php:472
+#: src/includes/class-frontend-login-plus-2fa.php:473
+msgid "ERROR: Invalid verification code."
+msgstr ""
+
+#: src/includes/class-frontend-login-plus-2fa-legacy.php:489
+#: src/includes/class-frontend-login-plus-2fa.php:490
+msgid "ERROR: Session is invalid or have expired."
+msgstr ""
+
+#: src/includes/class-frontend-login-plus-2fa-legacy.php:491
+#: src/includes/class-frontend-login-plus-2fa.php:492
+msgid "ERROR: Cannot display authentication form."
+msgstr ""
+
+#: src/includes/class-frontend-login-plus-2fa-legacy.php:498
+#: src/includes/class-frontend-login-plus-2fa.php:499
+msgid "Return to login form"
+msgstr ""
+
+#: src/includes/class-frontend-login-plus-2fa-legacy.php:500
+#: src/includes/class-frontend-login-plus-2fa.php:501
+msgid "Go back to login form"
+msgstr ""
+
+#: src/includes/class-frontend-login-plus-2fa-legacy.php:591
+#: src/includes/class-frontend-login-plus-2fa.php:590
+msgid "A new verification code has been sent to your email."
+msgstr ""
+
+#: src/includes/class-frontend-login-plus-2fa-legacy.php:632
+#: src/includes/class-frontend-login-plus-2fa.php:671
+msgid "Or, use a backup code."
+msgstr ""
+
+#: src/includes/class-frontend-login-plus-2fa-legacy.php:638
+#: src/includes/class-frontend-login-plus-2fa.php:677
+msgid "Or, go back to login form."
+msgstr ""
+
+#: src/includes/class-frontend-login-plus-2fa-legacy.php:646
+#: src/includes/class-frontend-login-plus-2fa.php:687
+msgid "Are you lost?"
+msgstr ""
+
+#. translators: %s: site name.
+#: src/includes/class-frontend-login-plus-2fa-legacy.php:651
+#: src/includes/class-frontend-login-plus-2fa.php:692
+msgid "&larr; Back to %s"
+msgstr ""
+
+#: src/includes/uo-toolkit-2fa-functions.php:158
+msgid "Two-Factor authentication"
+msgstr ""
+
+#: src/includes/uo-toolkit-2fa-functions.php:164
+#: src/includes/uo-toolkit-2fa-functions.php:217
+msgid "Uncanny Toolkit integrates with the free WP 2FA plugin to support two factor login authentication."
+msgstr ""
+
+#. translators: %s will be replaced with a "string" - state of the plugin
+#: src/includes/uo-toolkit-2fa-functions.php:173
+msgid "WP 2FA is currently %s."
+msgstr ""
+
+#: src/includes/uo-toolkit-2fa-functions.php:174
+msgid "active"
+msgstr ""
+
+#. translators: %s will be replaced with a "string" - state of the plugin
+#: src/includes/uo-toolkit-2fa-functions.php:179
+msgid "Integration is currently %s. Choose a login page in the Front End Logins settings above to use WP 2FA with the front end login."
+msgstr ""
+
+#: src/includes/uo-toolkit-2fa-functions.php:180
+msgid "inactive"
+msgstr ""
+
+#: src/includes/uo-toolkit-2fa-functions.php:189
+msgid "Go to"
+msgstr ""
+
+#: src/includes/uo-toolkit-2fa-functions.php:193
+msgid "WP-ADMIN > Settings > Two-factor Authentication"
+msgstr ""
+
+#: src/includes/uo-toolkit-2fa-functions.php:194
+msgid "WP 2FA Settings"
+msgstr ""
+
+#: src/includes/uo-toolkit-2fa-functions.php:196
+msgid "to configure 2FA settings."
+msgstr ""
+
+#. translators: %1$s The uninstall text %2$s The WP 2FA plugin label
+#: src/includes/uo-toolkit-2fa-functions.php:204
+msgid "%1$s the %2$s plugin to remove the integration."
+msgstr ""
+
+#: src/includes/uo-toolkit-2fa-functions.php:205
+msgid "Show active plugins"
+msgstr ""
+
+#: src/includes/uo-toolkit-2fa-functions.php:205
+msgid "Uninstall/Disable"
+msgstr ""
+
+#: src/includes/uo-toolkit-2fa-functions.php:206
+msgid "WP 2FA – Two-factor"
+msgstr ""
+
+#: src/includes/uo-toolkit-2fa-functions.php:226
+#: src/includes/uo-toolkit-2fa-functions.php:227
+msgid "WP 2FA"
+msgstr ""
+
+#: src/includes/uo-toolkit-2fa-functions.php:230
+msgid "is a free two-factor authentication plugin for WordPress. WP 2FA is a third-party plugin managed by"
+msgstr ""
+
+#: src/includes/uo-toolkit-2fa-functions.php:232
+msgid "WP White Security"
+msgstr ""
+
+#: src/includes/uo-toolkit-2fa-functions.php:233
+msgid "WP White Security."
+msgstr ""
+
+#: src/install-automator.php:40
+msgid "Try %s!"
+msgstr ""
+
+#: src/install-automator.php:43
+msgid "New"
+msgstr ""
+
+#: src/install-automator.php:89
+msgid "Take your site to the next level with Uncanny Automator"
+msgstr ""
+
+#: src/install-automator.php:91
+msgid "Finding Uncanny Toolkit useful for your LearnDash site?"
+msgstr ""
+
+#: src/install-automator.php:92
+msgid "You'll love"
+msgstr ""
+
+#: src/install-automator.php:92
+#: src/install-automator.php:99
+#: src/install-automator.php:196
+#: src/install-automator.php:259
+msgid "Uncanny Automator"
+msgstr ""
+
+#: src/install-automator.php:92
+msgid "Best of all,"
+msgstr ""
+
+#: src/install-automator.php:92
+msgid "it's free!"
+msgstr ""
+
+#: src/install-automator.php:100
+#: src/install-automator.php:260
+msgid "By the creators of Uncanny Toolkit"
+msgstr ""
+
+#: src/install-automator.php:115
+msgid "How it works"
+msgstr ""
+
+#: src/install-automator.php:117
+msgid "Use Uncanny Automator to get your favourite plugins and apps talking to each other —"
+msgstr ""
+
+#: src/install-automator.php:118
+msgid "without hiring a developer to write custom code."
+msgstr ""
+
+#: src/install-automator.php:119
+msgid "Here are a few examples:"
+msgstr ""
+
+#: src/install-automator.php:122
+msgid "When a user completes a course and fills out an evaluation form, add a row with the form entries to a"
+msgstr ""
+
+#: src/install-automator.php:123
+msgid "Google Sheet"
+msgstr ""
+
+#: src/install-automator.php:124
+msgid "and add the user to alumni"
+msgstr ""
+
+#: src/install-automator.php:125
+msgid "BuddyBoss"
+msgstr ""
+
+#: src/install-automator.php:126
+msgid "and"
+msgstr ""
+
+#: src/install-automator.php:127
+#: src/install-automator.php:159
+#: src/templates/admin-modules.php:135
+msgid "LearnDash"
+msgstr ""
+
+#: src/install-automator.php:128
+msgid " groups."
+msgstr ""
+
+#: src/install-automator.php:131
+#: src/install-automator.php:147
+#: src/install-automator.php:165
+#: src/install-automator.php:178
+msgid "Requires"
+msgstr ""
+
+#: src/install-automator.php:141
+msgid "When a new blog post is published, automatically post it to "
+msgstr ""
+
+#: src/install-automator.php:142
+msgid "Twitter"
+msgstr ""
+
+#: src/install-automator.php:143
+msgid "and email the post to a"
+msgstr ""
+
+#: src/install-automator.php:144
+msgid "MailChimp"
+msgstr ""
+
+#: src/install-automator.php:145
+msgid "list."
+msgstr ""
+
+#: src/install-automator.php:156
+msgid "When a user purchases a product, register them for a live event in "
+msgstr ""
+
+#: src/install-automator.php:157
+msgid "Events Calendar"
+msgstr ""
+
+#: src/install-automator.php:158
+msgid "add them to a"
+msgstr ""
+
+#: src/install-automator.php:160
+msgid "group and send a"
+msgstr ""
+
+#: src/install-automator.php:161
+msgid "WooCommerce"
+msgstr ""
+
+#: src/install-automator.php:162
+msgid "coupon code for their next order."
+msgstr ""
+
+#: src/install-automator.php:174
+msgid "When a user clicks a button, register them for a"
+msgstr ""
+
+#: src/install-automator.php:175
+msgid "Zoom"
+msgstr ""
+
+#: src/install-automator.php:176
+msgid "webinar, reset their progress in one course and enroll them in another course."
+msgstr ""
+
+#: src/install-automator.php:196
+msgid "supports"
+msgstr ""
+
+#: src/install-automator.php:196
+msgid "all of the most popular WordPress plugins"
+msgstr ""
+
+#: src/install-automator.php:196
+msgid "and we're adding new integrations all the time. The possibilities are limitless."
+msgstr ""
+
+#: src/install-automator.php:200
+msgid "Choose any combination of triggers"
+msgstr ""
+
+#: src/install-automator.php:204
+msgid "Users complete a lesson"
+msgstr ""
+
+#: src/install-automator.php:205
+msgid "Users are added to a group"
+msgstr ""
+
+#: src/install-automator.php:206
+msgid "Users fill out a form"
+msgstr ""
+
+#: src/install-automator.php:207
+msgid "Users register for an event"
+msgstr ""
+
+#: src/install-automator.php:208
+msgid "Users buy a product"
+msgstr ""
+
+#: src/install-automator.php:209
+msgid "Users complete a course"
+msgstr ""
+
+#: src/install-automator.php:210
+msgid "Users fail a quiz"
+msgstr ""
+
+#: src/install-automator.php:218
+msgid "...to initiate any combination of actions"
+msgstr ""
+
+#: src/install-automator.php:222
+msgid "Add users to a group"
+msgstr ""
+
+#: src/install-automator.php:223
+msgid "Send an email"
+msgstr ""
+
+#: src/install-automator.php:224
+msgid "Mark a lesson complete"
+msgstr ""
+
+#: src/install-automator.php:225
+msgid "Unlock a new course"
+msgstr ""
+
+#: src/install-automator.php:226
+msgid "Reset course progress"
+msgstr ""
+
+#: src/install-automator.php:227
+msgid "Trigger a Zapier webhook"
+msgstr ""
+
+#: src/install-automator.php:228
+msgid "Add a tag in Infusionsoft"
+msgstr ""
+
+#: src/install-automator.php:249
+msgid "Build better experiences for your users while saving money on custom development. And save"
+msgstr ""
+
+#: src/install-automator.php:250
+msgid "your"
+msgstr ""
+
+#: src/install-automator.php:251
+msgid "time by automating routine tasks — all with no code."
+msgstr ""
+
+#: src/templates/admin-help.php:25
+msgid "Please <a href=\"%s\">activate a valid license key</a> to submit a support ticket."
+msgstr ""
+
+#: src/templates/admin-help.php:36
+msgid "Your ticket has been created. Someone at Uncanny Owl will contact you regarding your issue."
+msgstr ""
+
+#: src/templates/admin-help.php:73
+msgid "Submit a Ticket"
+msgstr ""
+
+#: src/templates/admin-help.php:88
+msgid "Full Name"
+msgstr ""
+
+#: src/templates/admin-help.php:96
+msgid "Email"
+msgstr ""
+
+#: src/templates/admin-help.php:104
+msgid "Site URL"
+msgstr ""
+
+#: src/templates/admin-help.php:112
+msgid "License Key"
+msgstr ""
+
+#: src/templates/admin-help.php:128
+msgid "Message"
+msgstr ""
+
+#: src/templates/admin-help.php:136
+msgid "Send site data"
+msgstr ""
+
+#: src/templates/admin-help.php:141
+msgid "Emails must be enabled on your site to create a ticket using this form. If you don’t receive a confirmation email shortly after submitting this form, please log the ticket through your <a href=\"https://www.uncannyowl.com/my-account/submit-a-request/\" target=\"_blank\" rel=\"noreferrer\">My Account</a> page."
+msgstr ""
+
+#: src/templates/admin-help.php:144
+msgid "Create ticket"
+msgstr ""
+
+#: src/templates/admin-help.php:151
+msgid "Site Data"
+msgstr ""
+
+#: src/templates/admin-modules.php:13
+msgid "Uncanny Toolkit Pro for LearnDash"
+msgstr ""
+
+#: src/templates/admin-modules.php:115
+msgid "All versions"
+msgstr ""
+
+#: src/templates/admin-modules.php:118
+msgid "Free only"
+msgstr ""
+
+#: src/templates/admin-modules.php:121
+msgid "Pro only"
+msgstr ""
+
+#: src/templates/admin-modules.php:132
+msgid "All categories"
+msgstr ""
+
+#: src/templates/admin-modules.php:138
+msgid "General WordPress"
+msgstr ""
+
+#: src/templates/admin-modules.php:149
+msgid "All statuses"
+msgstr ""
+
+#: src/templates/admin-modules.php:152
+msgid "Active"
+msgstr ""
+
+#: src/templates/admin-modules.php:155
+msgid "Inactive"
+msgstr ""
+
+#: src/templates/admin-modules.php:168
+msgid "Search modules by title, description or keywords"
+msgstr ""
+
+#: src/templates/admin-modules.php:247
+msgid "Pro"
+msgstr ""
+
+#: src/templates/admin-modules.php:286
+msgid "Settings"
+msgstr ""
+
+#: src/templates/admin-modules.php:310
+msgid "Learn More"
+msgstr ""
+
+#. translators: 1. Trademarked term
+#: src/templates/admin-review-banner.php:8
+msgctxt "Reviews banner"
+msgid "Has the %1$s been useful for your site?"
+msgstr ""
+
+#: src/templates/admin-review-banner.php:11
+msgctxt "Reviews banner"
+msgid "5-star reviews inspire us to make the plugin even better!"
+msgstr ""
+
+#. translators: Non-personal infinitive verb
+#: src/templates/admin-review-banner.php:18
+msgctxt "Reviews banner"
+msgid "Add my review"
+msgstr ""
+
+#. translators: Non-personal infinitive verb
+#: src/templates/admin-review-banner.php:27
+msgctxt "Reviews banner"
+msgid "Send feedback"
+msgstr ""
+
+#: src/templates/admin-review-banner.php:33
+#: src/templates/admin-review-banner.php:41
+msgctxt "Reviews banner"
+msgid "Maybe later"
+msgstr ""
+
+#: src/templates/admin-review-banner.php:37
+msgctxt "Reviews banner"
+msgid "No, thanks"
+msgstr ""
+
+#. translators: Some error message.
+#: src/templates/admin-showcase.php:33
+msgid "An error occurred: %s"
+msgstr ""
+
+#: src/templates/admin-siteinfo.php:70
+msgid "MySQL Version"
+msgstr ""
+
+#: src/templates/admin-siteinfo.php:74
+msgid "MariaDB Version"
+msgstr ""
+
+#: src/templates/admin-siteinfo.php:91
+msgid "WordPress Minimum Requirements"
+msgstr ""
+
+#: src/templates/admin-siteinfo.php:98
+msgid "Environment"
+msgstr ""
+
+#: src/templates/admin-siteinfo.php:100
+#: src/templates/admin-siteinfo.php:158
+#: src/templates/admin-siteinfo.php:259
+#: src/templates/admin-siteinfo.php:285
+msgid "Setting"
+msgstr ""
+
+#: src/templates/admin-siteinfo.php:101
+#: src/templates/admin-siteinfo.php:159
+#: src/templates/admin-siteinfo.php:260
+#: src/templates/admin-siteinfo.php:286
+msgid "Value"
+msgstr ""
+
+#: src/templates/admin-siteinfo.php:107
+msgid "Server info"
+msgstr ""
+
+#: src/templates/admin-siteinfo.php:132
+msgid "PHP Version"
+msgstr ""
+
+#: src/templates/admin-siteinfo.php:156
+msgid "WordPress Settings"
+msgstr ""
+
+#: src/templates/admin-siteinfo.php:165
+msgid "WordPress address (URL)"
+msgstr ""
+
+#: src/templates/admin-siteinfo.php:169
+msgid "Site address"
+msgstr ""
+
+#: src/templates/admin-siteinfo.php:175
+msgid "WordPress Version"
+msgstr ""
+
+#: src/templates/admin-siteinfo.php:181
+msgid "Multisite"
+msgstr ""
+
+#: src/templates/admin-siteinfo.php:182
+#: src/templates/admin-siteinfo.php:215
+msgid "Yes"
+msgstr ""
+
+#: src/templates/admin-siteinfo.php:182
+#: src/templates/admin-siteinfo.php:215
+msgid "No"
+msgstr ""
+
+#: src/templates/admin-siteinfo.php:187
+msgid "Site Language"
+msgstr ""
+
+#: src/templates/admin-siteinfo.php:208
+msgid "Not defined"
+msgstr ""
+
+#: src/templates/admin-siteinfo.php:214
+msgid "Object Cache"
+msgstr ""
+
+#: src/templates/admin-siteinfo.php:226
+msgid "Active WordPress Plugins"
+msgstr ""
+
+#: src/templates/admin-siteinfo.php:228
+msgid "Plugin"
+msgstr ""
+
+#: src/templates/admin-siteinfo.php:229
+#: src/templates/admin-siteinfo.php:264
+msgid "Version"
+msgstr ""
+
+#: src/templates/admin-siteinfo.php:257
+msgid "LearnDash Settings"
+msgstr ""
+
+#: src/templates/admin-siteinfo.php:265
+#: src/templates/admin-siteinfo.php:269
+msgid "LearnDash not active"
+msgstr ""
+
+#: src/templates/admin-siteinfo.php:268
+msgid "DB Version"
+msgstr ""
+
+#: src/templates/admin-siteinfo.php:272
+msgid "Script Debug"
+msgstr ""
+
+#: src/templates/admin-siteinfo.php:273
+msgid "not defined"
+msgstr ""
+
+#: src/templates/admin-siteinfo.php:283
+msgid "PHP Settings"
+msgstr ""
+
+#: src/templates/admin-support.php:51
+#: src/templates/admin-support.php:65
+msgid "I can't find the answer to my question."
+msgstr ""
+
+#: src/templates/admin-support.php:76
+msgid "Cheating, Eh?"
+msgstr ""
+
+#: src/templates/admin-tabs.php:35
+#: src/templates/admin-tabs.php:42
+msgid "License Activation"
+msgstr ""
+
+#: src/templates/admin-tabs.php:53
+msgid "Follow us on Facebook"
+msgstr ""
+
+#: src/templates/admin-tabs.php:56
+msgid "Follow us on Twitter"
+msgstr ""
+
+#: src/templates/admin-tabs.php:59
+msgid "Follow us on LinkedIn"
+msgstr ""
+
+#: src/templates/frontend-login/layout_1-login.php:16
+msgid "Username and/or Password is empty."
+msgstr ""
+
+#: uncanny-learndash-toolkit.php:95
+msgid "Upgrade to Pro"
+msgstr ""
